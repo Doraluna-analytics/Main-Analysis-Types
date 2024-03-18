@@ -1,4 +1,3 @@
-```
 --Main Data
 WITH 
 CTE_week AS (
@@ -32,4 +31,3 @@ SELECT start_week,
   ROUND((week_five / week_zero * 100), 2) AS percentage_week_five,
   ROUND((week_six / week_zero * 100), 2) AS percentage_week_six
 FROM CTE_subscribers;
-```
